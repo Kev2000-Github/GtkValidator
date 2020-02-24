@@ -1,0 +1,5 @@
+/home/chapulinchip/Projects/GtkValidation/GtkValidation/bin/Debug/GtkValidation.exe
+/home/chapulinchip/Projects/GtkValidation/GtkValidation/bin/Debug/GtkValidation.pdb
+/home/chapulinchip/Projects/GtkValidation/GtkValidation/obj/x86/Debug/GtkValidation.csprojAssemblyReference.cache
+/home/chapulinchip/Projects/GtkValidation/GtkValidation/obj/x86/Debug/GtkValidation.exe
+/home/chapulinchip/Projects/GtkValidation/GtkValidation/obj/x86/Debug/GtkValidation.pdb
