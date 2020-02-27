@@ -26,17 +26,14 @@ namespace GtkValidation
             int cont = 0;
             foreach (var c in ent.Text)
             {
-                if (char.IsDigit(c) || c == '.' || c == ',')
-                {
-                    if (c == ',' || c == '.')
+                    if ((c == ',' || c == '.') && cont==0 && newStr !="")
                     {
-                        if (cont == 0 && newStr != "")
-                            newStr += ',';
+                        newStr += ',';
                         cont++;
                     }
-                    else
+                    else if(char.IsDigit(c))
                         newStr += c;
-                }
+                
             }
             ent.Text = newStr;
         }

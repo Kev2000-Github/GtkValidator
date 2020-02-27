@@ -1,14 +1,16 @@
 ﻿<Properties StartupConfiguration="{4FAED6C8-E2EA-4D27-9F96-4355611AD6EA}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="GtkValidation/Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="GtkValidation/Validation.cs">
     <Files>
       <File FileName="GtkValidation/Program.cs" Line="1" Column="1" />
+      <File FileName="GtkValidation/Validation.cs" Line="29" Column="1" />
+      <File FileName="GtkValidation/MainWindow.cs" Line="19" Column="46" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="GtkValidation" expanded="True">
             <Node name="GtkValidation" expanded="True">
-              <Node name="Program.cs" selected="True" />
+              <Node name="Validation.cs" selected="True" />
             </Node>
           </Node>
         </State>

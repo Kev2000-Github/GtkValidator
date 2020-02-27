@@ -1,6 +1,6 @@
 ﻿using System;
 using Gtk;
-
+using GtkValidation;
 public partial class MainWindow : Gtk.Window
 {
     public MainWindow() : base(Gtk.WindowType.Toplevel)
@@ -12,5 +12,10 @@ public partial class MainWindow : Gtk.Window
     {
         Application.Quit();
         a.RetVal = true;
+    }
+
+    protected void OnChanged(object sender, EventArgs e)
+    {
+        Validacion.ValidarNroDecimal(entry1);
     }
 }
